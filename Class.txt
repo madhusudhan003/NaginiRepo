@@ -1,0 +1,1155 @@
+
+
+Day - 5 
+17-03-2019
+----------
+Auto scaling and loadbalancing :
+- application load balancer
+- network load balancer
+- have to create rds, rds is the service for creating db in cloud
+- mysql workbench and visual stidio have to download which is a client to access 
+- 
+
+
+Day - 6
+23-03-2019
+-----------
+- today we are going to cover 6 servicess in windows : Route53(traffic control), ELB(elastic load balancer), Autoscalling, RDS(relational database) , AMI(Amazon Machine Image)and cloud watch
+- 
+Day - 7
+
+24-03-2019
+------------
+VPC(Virtual Private Cloud):
+- RT routing table
+- IGW internet gateway
+
+
+Day - 8
+30-3-2019
+---------
+putty and puttygen have to install
+Git Repostitory & GitHub
+Version Control System
+S3 service AWS
+Git lab(private)
+Git Hub
+Bit lab
+Bit Bucket
+Bitnami
+SSH
+Stash;
+config
+init
+touch command and save option
+
+
+
+cloning
+forking
+stash
+staged
+unstaged
+pull
+push
+commit
+
+
+
+
+
+
+Day -9
+DevOps class - 2
+27-04-2019
+------------
+- Stashing
+- 
+
+
+28-04-2019
+------------
+- Merging & Rebasing
+
+
+
+
+
+04-05-2019
+----------
+- Rebasing and Merging done successfully
+
+Docker :
+--------
+- hub.docker.com have to create an account
+- account is a registry
+registry contains repositories 
+repostitories contains images
+image is a script file
+from one image we can create n number of containers vice versa is also possible
+
+we cannot keep container into repository
+but we can keep image into repostory
+
+05-05-2019
+----------
+Resolution is 720
+dockers
+jenkins
+
+- we can pull an image from docker and do changes and upload
+from image we can create container
+
+
+2nd part
+---------
+Docket network and Docker Valume:
+Docker Network :
+----------------
+network adopters
+
+null/none - itself (local - 127.0.0.1), loop back ip
+host - container to continer communication with in the same instance(local swarm)
+bridge - local container to host container communication bridge is required
+overlay - to interact one instace from another instance which are running different instances, comes in docker archestration.
+
+by default bridge is available
+
+
+
+Docker Valumes:
+--------------
+2 types of valumes
+persistant volume(volume wont vanish if any continer is terminate)
+non-persistant volume(one container terminate entire volume will vanishe)
+
+
+
+
+11-05-2019
+--------------
+Overlay Network
+Build one image
+Port forwarding
+Docker file : one docker file
+Docker_compose.yaml : N number of docker files(multiple images)
+Stack is a collection servicess.
+Network is a collection of containers.
+Postgress and redis are DBs.
+Traffic is above the threshold level one more instance will be created in auto scaling machanism.
+. dot means present working directory.
+* star indicates local machine IP address.
+
+
+Docker Swarm (Orchestrator) :
+------------------------------
+
+
+12-05-2019
+-----------
+Jenkins 
+- I = install'
+- P = package
+- V = visualise
+
+
+- Artifact = ear, jar, war .....etv
+- By using maven we can create artifact
+
+
+
+18-05-2019
+-----------
+Jenkins 
+-------
+installation of java
+installation of jenkins
+java2s.com
+executers
+
+
+19-05-2019
+------------
+Jenkins pipeline
+1) GUI pipeline
+2) Scripted pipeline (old)
+3) Declarative Pipeline (now)
+4) Jenkins cli
+
+
+Build
+test
+deliver 
+
+jenkins.io
+
+
+Jenkins cli
+-----------
+
+===================================================================================================================================
+DevOps by Mani
+
+01-06-2019
+-----------
+differnt ides
+python 3.7
+
+99168 00299 Mani
+
+The top 11 Free IDE for Java Coding, Development & Programming :
+----------------------------------------------------------------
+(1) NetBeans : 
+(2) Eclipse :
+(3) IntelliJ IDEA Community Edition :
+(4) Android Studio :
+(5) Enide Studio 2014 :
+(6) BlueJ :
+(7) jEdit :
+(8) jGRASP :
+(9) JSource :
+(10) JDeveloper :
+(11) DrJava :
+(12) 
+
+Top Python IDEs and Code Editors Comparison. #1) PyCharm. #2) Spyder. #3) Pydev. #4) Idle. #5) Wing. #6) Eric Python. #7) Rodeo. #8) Thonny.
+Best Python Code Editors. #1) Sublime Text. #2) Atom. #3) Vim. #4) Visual Studio Code. Summary.
+
+8 Best Python IDEs for Linux Programmers
+PyCharm. PyCharm is a powerful, cross-platform, highly customizable and pluggable Python IDE, which integrates all developments tools in one place. ...
+Wing Python IDE. ...
+Eric Python IDE. ...
+PyDev For Eclipse. ...
+Spyders Scientific PYthon IDE. ...
+Pyzo Python IDE. ...
+GNU Emacs For Python Programming. ...
+Vim Editor.
+
+DevOps :
+---------
+DevOps is a new culture/process between software development and IT operations that emphasizes communication, collaboration, and integration in an agile organization while delivering features, fixes, and updates frequently in close alignment with business objectives..The goal of DevOps is to change and improve the relationship by advocating better communication and collaboration between these two business units.
+
+
+
+02-06-2019
+-----------                              
+Scrum :
+------
+- PO (Product Owner)
+- SM (Scrum Master)
+- Dev team (3 to 7)
+- DOD (Definitoin Of Done)
+- cermony
+- 1 sprint 10 days, 6.5 hours per day max
+- IP (Innovative Plan)	
+- PaaS : Plaform as a Service
+is a category of cloud computing services that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app.
+- IaaS : Infrastructure as s Service
+- SaaS : Software as a Service
+- IaaC : Infrastucture as a Code
+- CaaS : Cloud as a Service
+
+
+Version Control System :
+------------------------
+CURD
+GIT HUB
+Opesource and Enterprise
+Git Bash
+Git CMD
+Git Gui
+- have to create a git hub account
+github.com
+have to create a repository
+
+
+
+
+08-06-2019
+----------
+- Creation of organization
+- Creation of teams
+- Creation of Projects
+- Creation of Repositories
+- key will be like SHA
+every commit id is having key
+
+
+
+-itrainspartans/itraindevops (Organizationname/Repositoryname)
+- 
+
+git init 
+vi
+vim
+touch
+cat
+
+WD : Working Directory
+Ustg : Unstaged state
+Stg : Staged state
+Cmt : Commit
+
+Master : GoLive
+Branching : 
+
+Q : What are the best practicess to be followed in Git hub?
+
+- Don’t just git commit directly to master
+- Protect the master from direct commits
+- Define Codeowners for each repository
+- Separate configuration files from source code
+- Tightly control access (avoid to give admin access to each and every team member)
+- 
+
+
+
+
+09-06-2019
+----------
+- Service account
+- Branching
+- git init 
+- PR : PullRequest
+- git ignore
+git pull = git fetch + git merge
+
+touch 
+cat
+
+How to switch the account in gitbash:
+-------------------------------------
+git config --global user.email "spavan638@gmail.com"
+git config user.email (this command will show you the user details)
+git config --global user.email "madhusudhan003@gmail.com"
+
+ls -lrt
+git rm filename
+git mv 
+reset
+revert
+stash
+stach pop
+reset
+
+git workflow
+
+
+15-06-2019
+----------
+Rebase
+- Master is behind then merge
+- Master is ahead then rebase
+- pull = fetch + merge
+- Fork vs Branch
+
+- Master will extends only when we will do merge
+- Branch will extends only when we will do add and commit
+- GithubDetails -->github.txt
+- git init
+
+
+- Have to do lab as homework
+
+
+Jenkins :
+=========
+open source
+developed by java
+https://jenkins.io
+it is a basically a tool for ci & cd
+CI :
+Dev - git - jenkins - artifact - docker - hub
+
+CD : Delivery(automate) & Deploy
+
+8080 master
+50000 slave
+EC2 - Elastic Cloud computing
+
+
+openshift online account
+https://manage.openshift.com/
+
+22 & 23
+
+Jenkins is basically a one of the top rank ci/cd tool and it is a open source build using java and there are hundreds of plugins in the market to extends its capability and our own customized plugins to build and it is more powerfull and robust
+
+local 
+aws ec2 machine
+default port for jenkins 8080
+
+
+16-06-2019
+-----------
+before commit stash
+after commit cherrypick
+
+Jenkins Architecture:
+---------------------
+- Job : Set of intstuctions (build context)
+	config.xml
+RBAC (Role based authentication )
+
+Manage Jenkins: 
+
+Azure shell
+p\Power shell
+elasti cloud compute - EC2
+AMI - Amazon Machine Image
+LTS - Long Term Support
+VPC - Virtual private cloud
+IAM - Idntity access management
+Security - inbound and outbound
+pem to ppk
+
+
+Home work:
+- about 12 factor app
+wget - download
+
+
+Stackoverflow
+use 18.04 LTS in AMI
+sudo add-apt-repository ppa:webupd8team/java 
+sudo apt install oracle-java8-installer
+sudo apt install openjdk-8-jre-headless
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo apt-add-repository "deb https://pkg.jenkins.io/debian-stable binary/"
+sudo apt-get update
+sudo apt install jenkins
+
+after installation copy public ip
+http://18.218.19.54:8080
+
+
+29=06-2019
+-----------
+LTS - Long Terms Support
+IAM - Identity Access Management
+RBAC - Role Based Authenticatin Control
+SSD - Simple Storage Disk
+HTTPS - port 443
+HTTP - 80
+inbound & outbound traffic
+DNS - Domine name server
+pem private encrypted machine
+ppk putty private key
+
+instance group : this group is crated for handle Jenkins incoming and outcoming traffic.
+
+Home Work :
+-----------
+find out the port numbers
+1 Monogo DB - 
+2 MySQL
+3 Oracle
+4 Apache Kafka
+5 Redis
+6 RabitMQ
+7 ELK/EFK
+8 NodeJS
+9 
+what are the all File and Folder permissions
+
+UI--> API --> Datalayer = DC(Data Center)
+
+
+-Java/Springboot(all the packages)
+build tools or project object management tool
+Ant
+Maven
+Gradle
+
+Maven(mvn) goals are clean, compile, test, install, package, deploy
+
+- Javasript or Angularjs or reactjs 
+NodeJS/npm(node package manager)
+
+- .netproject
+MsBuild
+- PHP
+phpcompilar
+
+zip = tar file in linux
+
+ubunto
+clear
+ls -a
+pwd presetn working directory
+mkdir jenkins
+ls
+cd jenkins/
+have to update 
+sudo apt -get update
+apt is a ubunto package manager
+sudo apt install JDK
+-y indicates that yes download and install
+vim 
+sudo vim /
+source = reload this
+cd /opt
+sudo wget(download)
+dudo tar xvzf (extract verbo zip file)
+sudo mv(move)
+chmod (change mode)
+debain is company for ubuntoo
+
+
+
+
+30-06-2019
+-----------
+Itrain@165
+.jpx is the extention
+
+
+AD - Active Directory
+LDAP server will communicate with AD
+Adaptive authentication portal
+
+F5 --> Load Balancer --> Gateway --> Server1, Server2, .....ServerN
+
+AC
+
+Port numbers 
+MVN Goals (clean, compile & build, test, install, package, deploy)
+POM - project object model
+
+Jenkins Archetecture:
+--------------------
+Jenkins(/var/lib/jenkins)
+	Plugins
+	Users
+	Jobs
+	Workspace
+	Config.xml
+	Logs
+	Secrets
+	Workspace
+	Nodes
+
+
+
+13-07-2019
+-----------
+- webhooks (<jenkins URL>\gitlab-webhook\) : communication between jenkins and github
+- configure
+- elastic ip have to 
+
+Q: what are the defferent ways to use authentication machanism?
+- Credentials
+- Token
+- Certificate
+- Secret token 
+
+http & https & TSL(Transpot socket layer) & SSL (Secure socket layer)
+
+smtp gmail settings
+smtp.gmail.com
+
+https://myaccount.google.com/security
+
+
+PIPELINE :
+=============
+https://jenkins.io/doc/book/pipeline/
+- how you will automate job
+through webhook we can automate job
+- pipeline : Suite of plugins to implement CI & CD. Jenkins file is a heart of pipeline
+1) scripted pipeline (through nodes)
+2) declarative pipeline (Standard process)
+
+Pipeline uses groovy script
+Node(agent), stage, step , pipeline 
+
+
+Own practice:
+-------------
+Stackoverflow
+use 18.04 LTS in AMI
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt install oracle-java8-installer
+apt install openjdk-8-jre-headless
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo apt-add-repository "deb https://pkg.jenkins.io/debian-stable binary/"
+sudo apt-get update
+sudo apt install jenkins
+
+
+f2e66f0a7cbe5fac54478a98c6e72b6090fd238b
+
+07-14-2019
+---------
+Light Weight Deirectory (LDAP is a server)
+
+
+Webhook : 
+db7f8680f42b8d6fac6e2f89a80eea7a1c90904f
+
+
+
+PIPELINE :
+----------
+cutome plugin extension is .hpk
+all the plugin
+maven
+Green ball
+sonarqube scanner
+
+Multi branch pipeline :
+-----------------------
+
+
+Github organization:
+--------------------
+
+
+Sonar Qube: porpular tool
+----------
+www.sonarqube.org
+Quality gate
+is server used to static coded analysis
+- Static code analysis tool 
+- it has set of rools for different langugage 
+- it supports 25+ languages
+- Vuluranabilities (Security threads)
+- complexity
+- bugs or errors
+- Application security
+
+Adopted rules and customized rules.
+
+
+www.sonarqube.org
+https://sonarcloud.io/
+
+
+
+20-07-2019
+----------
+www.sonarqube.org
+https://sonarcloud.io/
+
+Sonar Qube
+- Quality Gate : 
+Profiles(set of rules)
+	Adoption
+	1
+	2
+	3
+	.	
+	.
+	.
+- Blocker, Criticle, Medium, low
+- Preview/Publish
+
+SonarQube Scanner for Jenkins
+Jacoco (java code coverage)
+prepareagent and report
+maven-surefire-plugin (junit test cases)
+Task Sonar Plugin
+JUnit attachment 
+
+Jfrag : 
+
+
+21-07-2019
+----------
+maven ---> .m2 folder
+Groupid - projectname or module(org.apache.maven, org.apache.commons)
+artifactid - sudirectory of groupid, name of the jar
+version - 
+
+
+npm
+package.json file
+npm is a build tool 
+package.json
+
+mavenrepository.com
+
+scanners:
+black duck
+45
+
+groovy dsl
+https://github.com/itrainspartans/jfrog_maven.git
+
+
+
+27-07-2019
+----------
+Dev ---> GitHub ----> Jenkins -----> Build(Maven) -----> SonarQube(Static code analysis) -----> Artifactory Archival(storage) -----> Docker Build -----> Docker Hub ----> Deploy(CD)(AWS, Azure, GCP, OSE (Kubernete)) -----> Monitor
+
+Virtualization(VM part)
+Docker(Containersation) :
+------------------------
+- rkt - rocket is a competion of docker
+Module outline:
+- Docker Engine
+- Images
+- Containers
+- Registries and Repositories
+
+client and deamon
+
+
+images(build time) vs container(runtime)
+docker hub(public) 
+docker trusted registry(private on-premises)
+ECS - Elastic container service
+docker_install.sh
+hub.docker.com
+
+https://hub.docker.com/
+
+hostname fire it
+go language
+Python
+
+
+/var/lib/docker
+
+
+28-07-2019
+-----------
+Volume mounting
+interactive way/mode
+-d ditached way/mode
+-it (interactive terminal)
+node or instance
+NAS - Nwtwork access storage server
+NFS - Network file storage server
+PV - Persistance volume
+-p<EC2 host port>:<container port>
+-V<local directory>:<container directory>
+
+
+Container orchestration engines
+
+
+10-08-2019
+-----------
+Docker Image
+Docker container(process)
+/var/lib/docker
+
+dockerhub.com
+
+- install docker(client & server(docker engine)) -----docker_install.txt
+- docker version
+- cd /var/lib/docker
+- cd overlay2
+- cd content
+- Docker pulling machanism
+- 3 types of images (official images, public images, customized images)
+- docker pull jenkins/jenkins:lts ---- lts is tagname, if you are not giving tagname default tag name is 'latest'
+- ls
+- first 12 digit is imageid
+- docker images
+- lts=longtime support
+- docker tag jenkins/jenkins jenkins/jenkins:madhu (like saveas)
+- taging is nothing but labeling or giving name
+- docket tag jenkins/jenkins:lts  ()
+- docket push jenkins/jenkins:madhu
+- docker login ------ if you want push credentials are required
+- docket push jenkins/jenkins:madhu
+- docker rmi -f imageid or name with tag
+- docker images
+- ls
+- docket pull jenkins/jenkins:lts --- while pulling image tagname is mandatory
+- docker images
+- clear
+- docket images
+- docket run -it ubuntu
+- docker images
+- ls
+- cd /var/lib
+- bash
+- sh
+- cd /home
+- exit
+- /var/lib/docket/image/overlay2/imagedb/content/sha256# docket images
+- cd /var/run
+- ls
+- docket rmi -f imageid
+- docker pull jenkins/jenkins:lts
+- docker run -d -p 8000:8080 jenkins/jenkins:lts    --------(machine port:docker port)
+- docker ps (whether container is ruuning or not)
+- ls
+- docker ps
+- docker exec -it containerid /bin/bash
+- docker kill containerid (container will crash and volume mounting come into picture)
+- docker ps
+- docker ps -aq(all processids)
+- docker rm processid
+- docker ps -a
+- cd /home/ubuntu
+- mkdir jenkins
+- ls
+- chmod +x jenkins/ (+x execute mod)
+- pwd (/home/ubuntu/jenkins)
+- docker run -d -p 8000:8080 -v /home/ubuntu/jenkins:/var/jenkins_home --name madhu jenkins/jenkins:lts
+- docker rmi -f $(docker images -aq)
+- chmod 777 ./jenkins
+- docket kill containerid
+- docker rm -f $(docker ps -aq)
+- docker run -d -v /home/ubuntu/jenkins:/var/jenkins_home -p  8000:8080 jenkins/jenkins:lts
+- docker version
+- docker 
+
+
+
+How to create a Dockerfile : build an application
+--------------------------------------------------
+- Dockerfile is set of instructions(build construct)
+- mkdir pythonapp
+- cd pythonapp
+- goto github create a pythonapp be ready
+- clone that pythonapp
+- python app.py
+- docker build --tag manee2k6/python-app:dev .
+- 
+
+
+package managers
+maven - pom
+nodejs - npm
+python - pip
+
+
+
+1) create a folder in ec2 machine
+2) create a Dockerfile
+3) install java * maven packages and finally keep it as bin/bash
+4) 
+
+
+
+- docker run -d -p 8000:8080 -v    (-v volume)
+
+
+home work : What is c group 
+- cgroups
+- namespaces
+- SELinux
+
+
+
+
+11-08-2019
+-----------
+Q; What is Cgroups and namespaces?
+A; cgroups limits the resources which a process or set of processes can use these resources could be CPU,Memory,Network I/O or access to filesystem while namespace restrict the visibility of group of processes to the rest of the system.
+
+In my simple words Cgroups is a set or group of processes like CPU,Memory,Network I/O or access to filesystem while namespace restrict the visibility of group of process to the rest of the system.
+
+
+Q; What is the purpose of namespace? 
+A; A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries.
+
+Q; What is namespace in container?
+A; When you run a container, Docker creates a set of namespaces for that container. These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
+
+Q; What is the use of SELinux?
+A; Security-Enhanced Linux is a Linux kernel security module that provides a mechanism for supporting access control security policies, including mandatory access controls. SELinux is a set of kernel modifications and user-space tools that have been added to various Linux distributions.
+
+
+
+
+11-08-2019
+-----------
+Docker swarm is a clustering machanism
+build python app docker image through pipeline :
+------------------------------------------------
+- docket exec -it containerid /bin/bash (current running container)
+- docker build . --tag ubuntu:1.0
+- docker run ubuntu:1.0
+
+- Docker lab
+- Docker compose nothing but how to run more than one cantainer parallely or sequentially.
+- 
+
+
+
+
+07-09-2019
+-----------
+Kubernetes
+----------
+pod
+node
+ip - service 
+replica set
+cubelet
+service layer or discovery or load balancer
+secrets
+labels
+
+
+Kubectl CLI :
+
+manage.openshift.com
+
+- OCP - Openshift Container Platform (Redhat)
+- Create a EC2 instance
+- Install openshift client CLI
+- tar -xvz filename (extract)
+- rm -remove folder
+-  RBAC - Role Based Access Control
+- one way -Source to image     ....second way -pipeline image
+- Deploymentconfig(dc), pods, Imagestream, Services(svc), Secrets, replication controller
+- oc delete pod,services
+- oc git pods
+- oc git dc
+- oc describe dc 
+- oc describe route/
+- route is the layer of svc
+- etcd will maintaine the state
+- 
+
+install_jenkins.sh
+newrellic.com
+
+
+Through command line :
+----------------------
+- oc projects projectname
+- oc new-app manee2k6/py-newrelic
+- 
+
+Shei Resume
+glassdoors.com
+
+
+
+08-09-2019
+-----------
+Kubernetes with jenkins:
+
+- oc delete -all -l app
+- oc expose svc
+
+Assignment 1: Create a Docker image with jenkins, maven, java, oc, kubctl, Docker client 
+Assignment 2: 
+
+
+S2I - Source to image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Plugins :
+----------
+
+1) maven integration
+2) Green ball
+3) sonarqube scanner
+4) JaCoCo (java code coverage)
+5) maven-surefire-plugin (junit test cases)
+6) Task Sonar Plugin
+7) JUnit attachment
+8) Pipeline maven integration
+9) Taskscanner
+10) Embeddable build status
+11) Artifactory
+12) CloudBees Docker Build and Publish
+13) Docker
+14) Docker Compose Build Step
+15) 
+
+www.Jfrog.com
+Madhu@1324
+
+
+Docker :
+=========
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kubernetes :
+============
+Definition : Kubernetes is an open-source container-orchestration system for automating application deployment, scaling, and management. It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation.
+
+
+
+
+
+
+
+
+
+
+
+
